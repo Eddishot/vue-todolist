@@ -31,9 +31,9 @@
                                 </div>
                             </section>
 
-                            <ul class="list-group" v-model="element, i in listaDaFare">
+                            <ul class="list-group" v-for="element, i in listaDaFare">
                                 <li class="list-group-item">{{element}}
-                                    <i @click="deleteX(i)" class="fas fa-times"></i>
+                                    <i @click="deleteX(i)" ></i>
                                 </li>
                                 <!-- <li class="list-group-item">A second item</li>
                                 <li class="list-group-item">A third item</li>
