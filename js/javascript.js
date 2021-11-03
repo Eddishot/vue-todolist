@@ -20,7 +20,7 @@ new Vue({
             
             // this.listaDaFare = ""
 
-            if (this.listaDaFare.trim( )=== ""){
+            if (this.listaDaFare.trim()=== ""){
                 return
             }else{
                 this.lista.push(this.listaDaFare)
